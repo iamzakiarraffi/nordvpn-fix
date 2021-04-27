@@ -1,0 +1,4 @@
+    sudo groupadd -r nordvpn 
+    sudo systemctl enable --now nordvpnd.service
+    sudo gpasswd -a your user name nordvpn
+    reboot
